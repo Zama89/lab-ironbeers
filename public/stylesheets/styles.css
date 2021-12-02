@@ -5,3 +5,57 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body{
+    white: #f7f9f9;
+    light-blue: #2081c3;
+    dark-blue: #0a2c42;
+    grey: #bfbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container_1_index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.container-beers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;  
+    margin: 10px auto;
+}
+
+.img-beer {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+nav {
+    background-color: #2081c3;
+    color: #f7f9f9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+    top: 0;
+    height: 50px;
+}
+
+button {
+    background-color: #2081c3;
+    color: #f7f9f9; 
+    border:#2081c3;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+#img-index {
+    height: 290px;
+}
